@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatzy Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="game-board">
+    <h1>Yatzy Game</h1>
+    <div class="dice-container" id="dice-container">
+        <div class="dice" id="dice-1">1</div>
+        <div class="dice" id="dice-2">2</div>
+        <div class="dice" id="dice-3">3</div>
+        <div class="dice" id="dice-4">4</div>
+        <div class="dice" id="dice-5">5</div>
+    </div>
+    <button id="roll-button">Roll Dice</button>
+    <button id="end-turn-button">End Turn</button>
+    <div class="scorecard" id="scorecard">
+        <h2>Scorecard</h2>
+        <ul>
+            <li>Ones: <span id="score-ones">0</span></li>
+            <li>Twos: <span id="score-twos">0</span></li>
+            <li>Threes: <span id="score-threes">0</span></li>
+            <li>Total Score: <span id="total-score">0</span></li>
+        </ul>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
