@@ -31,6 +31,7 @@ body {
     align-items: center;
     font-size: 24px;
     background-color: #fff;
+    cursor: pointer;
 }
 
 button {
@@ -41,4 +42,8 @@ button {
 
 .scorecard {
     margin-top: 20px;
+}
+
+.dice.keep {
+    background-color: #d3d3d3;
 }
